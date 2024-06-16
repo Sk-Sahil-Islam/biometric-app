@@ -66,4 +66,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //biometric
+    implementation(libs.androidx.biometric)
+    //appcompat
+    implementation(libs.androidx.appcompat)
 }
