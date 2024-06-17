@@ -37,7 +37,9 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContent {
             BiometricAppTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(
+                    modifier = Modifier.fillMaxSize()
+                ) { innerPadding ->
 
                     val biometricResult by promptManager.promptResults.collectAsState(null)
 
